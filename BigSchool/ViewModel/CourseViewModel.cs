@@ -11,6 +11,7 @@ namespace BigSchool.Models
 	{
 		[Required]
 		public string Place { get; set; }
+		
 		[Required]
 		[FutureDate]
 		public string Date { get; set; }
